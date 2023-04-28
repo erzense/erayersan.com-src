@@ -1,0 +1,95 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    margin-top: 300px;
+    flex-wrap: nowrap;
+}
+
+.profile .profile-picture{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.contact-list{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-section p{
+    color: white;
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
+
+.folder-field .first{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+.folder-field-windows-folder1{
+    margin-right: 40px;
+}
+.blog-list li{
+    height: 40px;
+}
+.blog-list li:nth-child(even){
+    background-color: rgb(152, 146, 146);
+    color: rgb(0, 0, 0);
+}
+.blog-list li:nth-child(odd){
+    background-color: rgb(129, 123, 123);
+}
+
+
+#github .inner-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#github .inner-section .inner-section-text{
+    width: 200px !important;
+    height: 200px !important;
+}
+.inner-section-field img{
+    height: 50% !important;
+    width: 90% !important;
+}
+
+.inner-section{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-section .inner-section-text{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-section .inner-section-field{
+    width: 100%;
+    height: 50%;
+}
+.inner-section .inner-section-field img{
+    width: 100%;
+    height: 50%;
+}
+
+.inner-section .inner-section-text i{
+    font-size: 4rem;
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', cursive;
+}
+
+.default-icon{
+    font-size: 2rem;
+    color: white !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bi{
+    color: black;
+}
+
+body{
+    background: rgb(0, 0, 0);
+    
+}
+
+p, h1, h2, h3, h4, h5{
+    color:rgb(219, 172, 5)
+}
+
+li{
+    list-style: none;
+}
+
+.text-medium{
+    font-size: 2rem;
+}
+
+.text-big{
+    font-size: 3rem;
+}
+
+.center{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+

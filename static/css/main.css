@@ -1,0 +1,260 @@
+.profile{
+    display: flex;
+    justify-content: center;
+    
+    width: 70%;
+    height: 200px;
+    margin: auto;
+    margin-top: 200px;
+    flex-wrap: nowrap;
+}
+
+.profile .profile-picture{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 100px;
+}
+
+.profile .profile-picture img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 50%;
+    
+
+}
+
+/*
+.profile .profile-picture img:hover{
+    animation: rotation 2s;
+}
+@keyframes rotation {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+*/
+.profile .text{
+    line-height: 1.75rem;
+    width: 400px;
+    padding: 50px;
+}
+
+.profile .text .text-area{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.subNavbar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.myProjectsLabel h1{
+    text-decoration: under;
+}
+
+
+
+.selfNavbar{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(219, 172, 5);
+}
+
+.selfNavbar ul{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.selfNavbar ul a{
+    width: 100%;
+    height: 100%;
+}
+.selfNavbar ul a{
+    height: 100%;
+    width: 25%;
+    list-style: none;
+    font-size: 1.5rem;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.selfNavbar ul a:hover{
+    background-color: rgb(169, 132, 1);
+}
+
+.contact-list{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact-list li{
+    margin: 5px;
+    list-style: none;
+}
+.contact-list .bi-youtube{
+    color: red;
+    font-size: 1.5rem;
+}
+.contact-list .bi-linkedin{
+    color: #0e76a8;
+    font-size: 1.5rem;
+}
+.contact-list .bi-github{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.contact-list .bi-instagram{
+    font-size: 1.5rem;
+    color: rgb(219, 172, 5);
+}
+
+.section{
+    width: 100%;
+    height: 800px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Websites{
+    background-color: #1abc9c;
+}
+#Blogs{
+    background-color:#3498db;
+}
+#GitHub{
+    background-color:#DC3545;
+}
+
+/*Folder Tasarımı*/
+
+.folder{
+    background-color: rgb(23, 22, 22);
+}
+.folder-navbar{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 25px 0px 0px 5px;
+    border-bottom: 1px solid red;
+    align-items: center;
+}
+
+.folder .folder-field{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.folder .folder-field .folder-field-windows{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.folder-field .first{
+    z-index: 4;
+    
+}
+.folder-field  .second{
+    z-index: 3;
+    
+}
+.folder-field  .third{
+    z-index: 2;
+}
+.folder-field  .forh{
+    z-index: 1;
+}
+
+.folder-field-windows-folder1{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left:25px;
+    padding-top: 15px;
+}
+
+
+.website-list a{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.inner-section{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-section p{
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+.inner-section .inner-section-text{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-section .inner-section-text i{
+    font-size: 8rem;
+    color: white;
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.5);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(-30deg);
+    display: inline-block;
+    margin-bottom: 2px;
+}
+
+.inner-section .inner-section-field{
+    width: 55%;
+    height: 100%;
+}
+
+.blog-list li:nth-child(even){
+    background-color:rgb(187, 191, 194);
+    height: 25px;
+}
+.blog-list li:nth-child(odd){
+    background-color:rgb(172, 173, 174);
+    height: 25px;
+}
+
+.blog-list .btn{
+    margin: 25px;
+}
+.inner-section .inner-section-field img{
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    opacity: 85%;
+}
